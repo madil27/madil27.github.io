@@ -103,10 +103,12 @@ header a:hover {
 	border-radius: 4px
 }
 
-header a:focus {
-	color: #3498db;
+header a:visited {
+	color: #4E2A84;
 	text-decoration: none
 }
+
+
 
 header.active {
 	display: block
@@ -434,7 +436,7 @@ footer {
 
 .vtimeline-content p {
 	color: #74808a;
-	font-size: 0.9em;
+	font-size: 1.1em;
 	margin: 0
 }
 
@@ -564,7 +566,7 @@ footer {
 .project-info p {
 	color: #74808a;
 	margin: 0 0 15px 0;
-	font-size: 0.9em
+	font-size: 1.1em
 }
 
 .no-image .project-info {
@@ -580,7 +582,8 @@ footer {
 
 #skills {
 	padding: 50px 15px;
-	text-align: center
+	text-align: center;
+	/*background: #4E2A84;*/
 }
 
 #skills h2 {
@@ -592,7 +595,8 @@ footer {
 	display: block;
 	margin: 0 auto;
 	padding: 0;
-	max-width: 800px
+	max-width: 800px;
+	border-radius: 800px;
 }
 
 #skills li {
@@ -603,12 +607,12 @@ footer {
 	background: #e4e4ea;
 	list-style: none;
 	cursor: default;
-	font-size: 1.2em
+	font-size: 1.2em;
 }
 
 #contact {
 	padding: 50px 15px;
-	background: #7654a8;
+	/*background: #7654a8;*/
 	text-align: center
 }
 
