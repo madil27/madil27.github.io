@@ -1,0 +1,467 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Practical Natural Language Processing - Muhammad Hassan</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Muhammad Hassan">
+<meta property="og:title" content="Practical Natural Language Processing">
+
+
+  <link rel="canonical" href="https://mhassan11.github.io//nlp2020/">
+  <meta property="og:url" content="https://mhassan11.github.io//nlp2020/">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Muhammad Hassan",
+      "url" : "https://mhassan11.github.io/",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://mhassan11.github.io//feed.xml" type="application/atom+xml" rel="alternate" title="Muhammad Hassan Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://mhassan11.github.io//assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://mhassan11.github.io//images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="https://mhassan11.github.io//images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="https://mhassan11.github.io//images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="https://mhassan11.github.io//images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="https://mhassan11.github.io//images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="https://mhassan11.github.io//images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="https://mhassan11.github.io//images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="https://mhassan11.github.io//images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="https://mhassan11.github.io//images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="https://mhassan11.github.io//images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="https://mhassan11.github.io//images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="https://mhassan11.github.io//images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="https://mhassan11.github.io//images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="https://mhassan11.github.io//images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="https://mhassan11.github.io//images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="https://mhassan11.github.io//images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="https://mhassan11.github.io//images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://mhassan11.github.io//assets/css/academicons.css"/>
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://mhassan11.github.io//">Muhammad Hassan</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://mhassan11.github.io//teaching/">Teaching</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://drive.google.com/file/d/1d2RxcU8OIKhxePA98ZZZHlF80hfC6_CO/view?usp=sharing">CV</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://mhassan11.github.io//publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://mhassan11.github.io//positions/">Research Positions and Service</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+
+
+
+  <div class="archive">
+    
+      <h1 class="page__title">Practical Natural Language Processing</h1>
+    
+    <style type="text/css">
+h2, h3, h4, h5, h6 {margin: 0;}
+.br {display: block; margin-bottom: 0em; margin: 0;} 
+</style>
+
+<h2 id="instructor-rasika-bhalerao">Instructor: Rasika Bhalerao</h2>
+<h3 id="rasikabhnyuedu">rasikabh@nyu.edu</h3>
+<h3 id="computer-science-new-york-university-tandon-school-of-engineering">Computer Science, New York University Tandon School of Engineering</h3>
+<h3 id="fall-2020">Fall 2020</h3>
+<h3 id="syllabus"><a href="https://docs.google.com/document/d/1vCZopztgMiaSO1F8jb4k0wPJCQiRqwrQ3wQBqp4mgp4/edit?usp=sharing">Syllabus</a></h3>
+<h3 id="lectures-mondays-200---430-in-jabs-474-and-online">Lectures: Mondays 2:00 - 4:30 in JABS 474 and online</h3>
+<h3 id="office-hours-thursdays-1---2pm-and-by-appointment">Office hours: Thursdays 1 - 2pm and by appointment</h3>
+<h3 id="ta-zhihao-zhang-zz2432nyuedu-office-hours-fridays-2-4pm">TA: Zhihao Zhang, zz2432@nyu.edu, Office hours Fridays 2-4pm</h3>
+<p><br /></p>
+
+<p>Zoom links and assignment submission are on NYU Classes.
+To join a lecture on Zoom, find it in the “Zoom” tab in the NYU Classes site. The password is nlp2020.</p>
+
+<p>This course will provide an introduction to various techniques in natural language processing with a focus on practical use. Topics will include bag-of-words, English syntactic structures, part-of-speech tagging, parsing algorithms, anaphora/coreference resolution, word representations, deep learning, and a brief introduction to current research.</p>
+
+<p>The course will cover basic implementations in Python as well as APIs and tools for advanced text processing. There will be brief weekly assignments, a midterm exam, and a final project including a programming component, a written report, and a short presentation.</p>
+
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Topic</th>
+      <th>Slides</th>
+      <th>Assignment Due</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sep 9</td>
+      <td>Introduction, Review of Statistics and Machine Learning (Wednesday following Monday schedule)</td>
+      <td><a href="https://docs.google.com/presentation/d/1q4F_Vf6NoW3_TZ-0D6NJ7KEjB0GsyBHBw4Bd2mbYP3A/edit?usp=sharing">Lecture 1 slides</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Sep 14</td>
+      <td>Bag of Words, Tfidf, Naive Bayes</td>
+      <td><a href="https://docs.google.com/presentation/d/1_bwckxwBfjEzRd1AnNeBJranDOYSKRmXrCcE4AU7WgY/edit?usp=sharing">Lecture 2 slides</a></td>
+      <td><a href="https://docs.google.com/document/d/16KsMYOI6PxuAOPpHLJk_7yuNIqakIDEQi98nfttQ_UY/edit?usp=sharing">Assignment 1</a></td>
+    </tr>
+    <tr>
+      <td>Sep 21</td>
+      <td>English Syntactic Structures and Part-of-Speech Tagging</td>
+      <td><a href="https://docs.google.com/presentation/d/1IfidlCd-aRD09dVuyZuceC_9YPF3Lavn0id3FaE_scs/edit?usp=sharing">Lecture 3 slides</a></td>
+      <td><a href="https://docs.google.com/document/d/1abkiH-ZHFLWui194xOtp1XY6GxyjGh-DXdrlXjrb_kE/edit?usp=sharing">Assignment 2</a>, <br /> <a href="https://rasikabh.github.io/nlp2020/#final-project">Statement of project interest</a></td>
+    </tr>
+    <tr>
+      <td>Sep 28</td>
+      <td>POS Tagging and Parsing Algorithms</td>
+      <td><a href="https://docs.google.com/presentation/d/1atemcwZZUI8DBydpk8fwVyMjVaQHXRHIrqUdEmloTPI/edit?usp=sharing">Lecture 4 slides</a></td>
+      <td><a href="https://docs.google.com/document/d/1rpZxvdi5x6xrJhsjzX9MlcaBydAaJgLwTeAZ_PmnN5U/edit?usp=sharing">Assignment 3</a></td>
+    </tr>
+    <tr>
+      <td>Oct 5</td>
+      <td>Constituency and Dependency Parsing</td>
+      <td><a href="https://docs.google.com/presentation/d/1X_-2xWhIJE3wYD7vcBG3H4u9tbqlbMIplY2Tftv36oc/edit?usp=sharing">Lecture 5 slides</a></td>
+      <td><a href="https://docs.google.com/document/d/1iNvFtZkI9eAQzK4XHKw5UeL966g0OY7p7VQzglZJLmk/edit?usp=sharing">Assignment 4</a></td>
+    </tr>
+    <tr>
+      <td>Oct 12</td>
+      <td>Coreference Resolution</td>
+      <td><a href="https://docs.google.com/presentation/d/1izOeuo_4h5ifwgV06tAILn7F8v6cZaCsTgK5BL-gJoA/edit?usp=sharing">Lecture 6 slides</a></td>
+      <td><a href="https://docs.google.com/document/d/1cvFc5oSdIbfPujZCgTSOkdqS9jVvwZsGF8daGMWXXB8/edit?usp=sharing">Assignment 5</a></td>
+    </tr>
+    <tr>
+      <td>Oct 19</td>
+      <td>Unsupervised Learning, Discuss practice midterm exam</td>
+      <td><a href="https://docs.google.com/presentation/d/1HaiL6B3w76rLKo2HGqQhE395PLAjJvY9zz1LTud5M98/edit?usp=sharing">Lecture 7 slides</a></td>
+      <td><a href="https://rasikabh.github.io/nlp2020/#final-project">Project proposal</a>, <br /> <a href="https://docs.google.com/document/d/1BCnCPbZhLwRoJTtAKKdCUrtpJaCKm5ju4kIfjtevBSU/edit?usp=sharing">Practice midterm (recommended)</a></td>
+    </tr>
+    <tr>
+      <td>Oct 26</td>
+      <td><strong>Midterm Exam</strong></td>
+      <td> </td>
+      <td>The midterm exam <br /> (instructions on NYU Classes)</td>
+    </tr>
+    <tr>
+      <td>Nov 2</td>
+      <td>Deep Learning and Word Representations</td>
+      <td><a href="https://docs.google.com/presentation/d/1sIY7FJccYqzsGSD-o3e-hZjNJzhx7kX8sS82nyMTDo0/edit?usp=sharing">Lecture 8 slides</a></td>
+      <td><a href="https://docs.google.com/document/d/1VLKful43M3gWWtk5MnRVpYqnCn9S-3kks-GYDcDlMr0/edit?usp=sharing">Assignment 6</a></td>
+    </tr>
+    <tr>
+      <td>Nov 9</td>
+      <td>Deep Learning and Language Models</td>
+      <td><a href="https://docs.google.com/presentation/d/1Vjp3yz9069paBQsTLDkd2f0KJ0zMAlsWAvt0SN-qJ4A/edit?usp=sharing">Lecture 9 slides</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Nov 16</td>
+      <td>Commonly Used Python tools and APIs</td>
+      <td><a href="https://docs.google.com/presentation/d/17SR2pUYjU1qxXE4A1seTvoQ2qwBw7ecTJ_2CO9Ozzls/edit?usp=sharing">Lecture 10 slides</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Nov 23</td>
+      <td>Selected Topics voted on by students: knowledge graphs, web search engines (+ TextRank), transfer learning, chat / dialogue</td>
+      <td><a href="https://docs.google.com/presentation/d/14-mg4xUFKldmJ4i1wFuUJmcOg1xhKm6jZyhtinnomIg/edit?usp=sharing">Lecture 11 slides</a></td>
+      <td><a href="https://docs.google.com/document/d/1zsvBJgELGX-cl0FNIASgcGXYHg82NWU2bKSeg0HS5zE/edit?usp=sharing">Assignment 7</a></td>
+    </tr>
+    <tr>
+      <td>Nov 30</td>
+      <td>Recent Advances and Current Research in NLP</td>
+      <td><a href="https://docs.google.com/presentation/d/1RdraHQNL6-aGoFebpGyqI55wzq4oqvFwkzsehFScrbA/edit?usp=sharing">Lecture 12 slides</a></td>
+      <td><a href="https://rasikabh.github.io/nlp2020/#final-project">Paper draft due</a></td>
+    </tr>
+    <tr>
+      <td>Dec 7</td>
+      <td><strong>Final Project Presentations</strong></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Dec 14</td>
+      <td>No class</td>
+      <td> </td>
+      <td><a href="https://rasikabh.github.io/nlp2020/#final-project">Final paper due</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h3 id="learning-objectives">Learning Objectives:</h3>
+<ul>
+  <li>A solid understanding of the basics of natural language processing (NLP)</li>
+  <li>Hands-on implementation of basic algorithms in NLP</li>
+  <li>Familiarity with the challenges of NLP</li>
+  <li>Broadened ideas of how NLP affects the world</li>
+  <li>Exposure to current research</li>
+</ul>
+
+<h3 id="prerequisites">Prerequisites:</h3>
+<ul>
+  <li>Experience with/willingness to quickly learn Python</li>
+  <li>A course in algorithms and data structures</li>
+  <li>Interest in practical natural language processing</li>
+</ul>
+
+<h3 id="resources">Resources</h3>
+<ul>
+  <li><a href="https://web.stanford.edu/~jurafsky/slp3/">“Speech and Language Processing” by Daniel Jurafsky and James H. Martin</a></li>
+  <li>Blog posts and websites posted in class</li>
+  <li>Lecture slides on course website</li>
+</ul>
+
+<h3 id="grades">Grades</h3>
+<ul>
+  <li>20%  Midterm exam</li>
+  <li>30%  Weekly assignments</li>
+  <li>50%  Final project
+    <ul>
+      <li>2%  Statement of interest</li>
+      <li>5%  Proposal</li>
+      <li>10% Paper draft</li>
+      <li>15% Presentation</li>
+      <li>18% Final paper</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="policies">Policies</h3>
+<p>I will conduct lectures over Zoom from the classroom. Students have the option to come in person to lectures, but I will not take attendance. All other components of the course are online. Zoom links can be found on the NYU Classes site.</p>
+
+<p>The weekly assignments will include written portions and Python programming portions.</p>
+
+<p>Homework assignments are due on the NYU Classes site by the indicated due date. Late assignments will not be accepted. If you have extenuating circumstances, please speak to me before the assignment is due. Assignments without submissions will receive a grade of zero. Weekly assignments should take on average one hour per week.</p>
+
+<p>It is allowed (and recommended) to use textbooks, online references, your class notes, and any other references for the assignments. You can also discuss the assignments with other students and the TA. However, the final submission must be your own work. Please cite any sources and collaborators in your submission.</p>
+
+<h3 id="final-project">Final Project</h3>
+<p>The final project should address a problem by applying existing NLP techniques. Examples include predicting a culture trend using sentiment analysis on Twitter, or figuring out the meanings of emojis in Venmo payments.</p>
+
+<p>The final project will be done in groups of 3 or 4 students. In the case of <em>extreme</em> imbalance in work distribution, grades for each student in the group will be adjusted based on participation. The final project grade will come from five components: statement of interest, proposal, paper draft, presentation, and final paper.</p>
+
+<p>Each student will submit a <strong>statement of interest</strong>, which is up to a paragraph describing a topic on which you would be interested in doing a project. It is okay at this stage to be unsure or have half-formed ideas. I will then assign students into groups based on topics. Students who don’t submit this statement will be randomly assigned.</p>
+
+<p>Each group will submit a <strong>project proposal</strong>. The goal for the project proposal is to get feedback on feasibility and check for any anticipated missing pieces. It should be a few paragraphs (up to a page) describing:</p>
+<ul>
+  <li>Your idea</li>
+  <li>The problem you are solving</li>
+  <li>Where you will get data</li>
+  <li>What NLP you will do</li>
+  <li>How you will evaluate your methods</li>
+  <li>Anything else needed to understand your project</li>
+</ul>
+
+<p>Each group will submit a <strong>paper draft</strong>, which is essentially the first half of the final paper. There is no length guideline, and you will not be penalized for lack of results at this stage. It should:</p>
+<ul>
+  <li>introduce and motivate your problem and solution</li>
+  <li>explain how others have solved similar problems (if applicable)</li>
+  <li>describe your dataset</li>
+  <li>explain any results</li>
+</ul>
+
+<p>Each group will give a <strong>9-minute presentation</strong> on Zoom on December 7. It is recommended to have one person share a screen with slides. The presentation should have:</p>
+<ul>
+  <li>introduction</li>
+  <li>motivation for the problem</li>
+  <li>description of the dataset</li>
+  <li>explanation of the NLP and other methods used</li>
+  <li>preliminary results</li>
+  <li>conclusion</li>
+</ul>
+
+<p>Each group will submit a <strong>final paper</strong>. The paper should include:</p>
+<ul>
+  <li>Introduction / motivation / description of the problem</li>
+  <li>Brief description of how others have solved similar problems</li>
+  <li>Description of the dataset and where you got it</li>
+  <li>Explanation of NLP and other methods used</li>
+  <li>Results / discussion of results (Did you solve the problem?)</li>
+  <li>Conclusion</li>
+  <li>Works cited</li>
+</ul>
+
+<h3 id="regret-clause">Regret Clause</h3>
+<p>We will follow NYU’s policy for acadmic integrity for students, which states the repercussions of academic dishonesty. However, exceptions will be made for students who demonstrate regret within 72 hours.</p>
+
+<p>“If you commit some act that is not reasonable but bring it to the attention of the course’s heads within 72 hours, the course may impose local sanctions that may include an unsatisfactory or failing grade for work submitted, but the course will not refer the matter for further disciplinary action except in cases of repeated acts.” [1]</p>
+
+<p>[1] David J. Malan, Brian Yu, and Doug Lloyd. 2020. Teaching Academic Honesty in CS50. In Proceedings of the 51st ACM Technical Symposium on Computer Science Education (SIGCSE ’20). Association for Computing Machinery, New York, NY, USA, 282–288. DOI:https://doi.org/10.1145/3328778.3366940</p>
+
+<h3 id="moses-center-statement-of-disability">Moses Center Statement of Disability</h3>
+<p>If you are a student with a disability who is requesting accommodations, please contact New York University’s Moses Center for Students with Disabilities at 212-998-4980 or mosescsd@nyu.edu.  You must be registered with CSD to receive accommodations.  Information about the Moses Center can be found at <a href="https://www.nyu.edu/students/communities-and-groups/students-with-disabilities.html">https://www.nyu.edu/students/communities-and-groups/students-with-disabilities.html</a>.
+The Moses Center is located at 726 Broadway on the 2nd floor.</p>
+
+  </div>
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/mhassan11"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://mhassan11.github.io//feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2021 Muhammad Hassan. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="https://mhassan11.github.io//assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+  </body>
+</html>
+
