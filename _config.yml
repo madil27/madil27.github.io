@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Muhammad Hassan"
   avatar           : "hassan_2021_1.jpeg"
-  bio              : "Graduate student in computer science at UIC interested in Systems, Security and Privacy, and Social Computing "
-  location         : "mhassa42@uic.edu"
+  bio              : "Graduate student in computer science at UIC interested in Systems, Security and Privacy, and Social Computing."
+  location         : 
   employer         : "University of Illinois at Chicago"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=s-1k0F8AAAAJ&hl=en"
@@ -114,7 +114,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
+  email            : "mhassa42@uic.edu"
 
 # Reading Files
 include:
