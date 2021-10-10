@@ -10,9 +10,12 @@ redirect_from:
 
 I am a graduate student in computer science at University of Illinois at Chicago (UIC) working with Professor [Jason Polakis](https://www.cs.uic.edu/~polakis/aboutme/). I am interested in Security, Privacy, and Social Computing.<br>
 
+
+### CONTACT INFORMATION
 <em> Graduate Assistant in Computer Science </em> <br>
 <em> Department of Computer Science, UIC</em> <br>
-<em> 851 S Morgan Street, Chicago, IL </em> <br>
+<em> 851 S. Morgan St., 1336 SEO </em> <br>
+<em> Chicago, IL 60607</em> <br>
 <em> [muhassan@mail.com](mailto:muhassan@mail.com) | [mhassa42@uic.edu](mailto:mhassa42@uic.edu) </em> <br>
 <em> [+1 (773) 744 7604](tel:7737447604) </em> <br>
 
