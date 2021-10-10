@@ -19,9 +19,8 @@ h2, h3, h4, h5, h6 {margin: 0;}
 #### Assisted with course instruction and grading, conducting weekly labs and mock interview assesments, and held office hours. (~150 students)
 <br/>
 
-### Graduate Teaching Assistant for Introduction to Computing and Programming. course at UIC (CS 251)
+### Graduate Teaching Assistant for Introduction to Computing and Programming. course at UIC (CS 107)
 #### Fall 2021 (Aug 2021 - Dec 2021)
-#### [Course Website](https://www.reckingerlab.com/cs251asyncvideos)
 #### Assisted with course instruction and grading projects and exams, conducting weekly labs and mock interview assesments, and held office hours. (~100 students)
 <br/>
 
