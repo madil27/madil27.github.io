@@ -8,7 +8,7 @@ redirect_from:
   - about.html
 ---
 
-I am a graduate student in computer science at University of Illinois at Chicago (UIC) working with Professor [Jason Polakis](https://www.cs.uic.edu/~polakis/aboutme/). I am interested in Security, Privacy, and Social Computing.<br>
+I am a graduate student in computer science at University of Illinois at Chicago (UIC) working in [BITS Lab](https://bits.lab.uic.edu/). I am interested in (Usable) Security, Privacy, and Social Computing.<br>
 
 
 ### CONTACT INFORMATION
