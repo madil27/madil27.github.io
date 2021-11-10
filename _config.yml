@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Muhammad Hassan"
+title                    : "Muhammad Adil Inam"
 title_separator          : "-"
-name                     : &name "Muhammad Hassan"
-description              : &description "I am a graduate student in computer science at UIC working with Professor Jason Polakis, interested in Security and Privacy, Systems and Social Computing. "
+name                     : &name "Muhammad Adil Inam"
+description              : &description "I am a graduate student in computer science at UIUC. "
 url                      : https://mhassan11.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mhassan11/mhassan11.github.io"

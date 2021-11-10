@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Muhammad Hassan"
+title: "Muhammad Adil Inam"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - about.html
 ---
 
-I am a graduate student in computer science at University of Illinois at Chicago (UIC) working in [BITS Lab](https://bits.lab.uic.edu/). I am interested in (Usable) Security, Privacy, and Social Computing.<br>
+I am a graduate student in computer science at University of Illinois (UIUC).<br>
 
 
 ### CONTACT INFORMATION
