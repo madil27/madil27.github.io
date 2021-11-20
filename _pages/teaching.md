@@ -13,16 +13,24 @@ h2, h3, h4, h5, h6 {margin: 0;}
 
 {% include base_path %}
 
-### Graduate Teaching Assistant for Data Structures course at University of Illinois at Chicago (CS 251)
-#### Spring 2021 (Jan 2021 - May 2021)
-#### [Course Website](https://www.reckingerlab.com/cs251asyncvideos)
-#### Assisted with course instruction and grading, conducting weekly labs and mock interview assesments, and held office hours (~150 students).
-<br/>
+## Undergraduate Teaching Assistant at the Lahore University of Management Sciences
+## 09/2018 - 05/2020
 
-### Graduate Teaching Assistant for Introduction to Computing and Programming. course at UIC (CS 107)
-#### Fall 2021 (Aug 2021 - Dec 2021)
-#### Assisted with course instruction, grading of projects and exams, conducted weekly labs and mock interview assesments, and held weekly office hours (~100 students).
-<br/>
+<br>
+
+### Operating Systems Course: 
+##### Primary duties included: (1) conducting tutorials and office hours to explain OS concepts consisting of process synchronization, deadlocks, paging etc. (2) designing assignments (3) grading. <br>
+
+### Software Engineering Course: 
+##### Primary duties included: (1) conducting tutorials and office hours (2) grading assignments and quizzes. <br>
+
+
+### Data Structures Course: 
+##### Primary duties included: (1) conducting tutorials and office hours (2) designing autograders for assignments (3) grading assignments and quizzes. <br>
+
+### Fundamentals of Computer Systems Course: 
+##### Primary duties included: (1) Conducting tutorials and office hours (2) Grading assignments and quizzes. <br>
+
 
 
 <!-- ### Lecturer for Applied Machine Learning course at UC Berkeley

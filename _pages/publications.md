@@ -11,14 +11,18 @@ author_profile: true
 
 {% include base_path %}
 
-Muhammad Saad\*, <b>Muhammad Hassan\*</b>
-, Fareed Zaffar, 
-"[Towards Characterizing COVID-19 Awareness on Twitter](https://arxiv.org/abs/2005.08379)", <br>
-<em>Manuscript under submission</em>
+<b> Forensic Analysis of Configuration-based Attacks </b> <br>
+<b>Muhammad Adil Inam\* </b>, Wajih Ul Hassan\*, Ali Ahad, Adam Bates, Rashid Tahir, Tianyin Xu, Fareed Zaffar <br>
+<b>ISOC Network and Distributed System Security Symposium (NDSS) 2022 [To Appear] </b> <br>
 
-<b>Muhammad Hassan\*</b>, Javeria Hassan*, Fareed Zaffar, Rashid Tahir, 
-"GenBi: A study of Gender Bias in Print Media", <br>
-<em>Manuscript under submission</em>
+
+
+<b> User Profiling and Privacy Concerns in Smart Home Environments </b> <br>
+Atheer Almogbil, Sofia Belikovetsky, Khir Henderson, <b>Muhammad Adil Inam</b>, Momo Steele, Qinyuan Wu, Aviel
+Rubin, Adam Bates, Kevin Kornegay <br>
+<em> Manuscript under submission </em> <br>
+
+
 
 
 <!-- Nikita Nangia\*, Clara Vania\*, <b>Rasika Bhalerao\*</b>

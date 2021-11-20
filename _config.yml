@@ -10,10 +10,10 @@ locale                   : "en-US"
 title                    : "Muhammad Adil Inam"
 title_separator          : "-"
 name                     : &name "Muhammad Adil Inam"
-description              : &description "I am a graduate student in computer science at UIUC. "
-url                      : https://mhassan11.github.io/
+description              : &description "I am a graduate student in Computer Science at UIUC."
+url                      : https://madil27.github.io/
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "mhassan11/mhassan11.github.io"
+repository               : "madil27/madil27.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Muhammad Hassan"
-  avatar           : "hassan_2021_1.jpeg"
-  bio              : "Graduate student in computer science at UIC interested in Systems, Security and Privacy, and Social Computing."
+  name             : "Muhammad Adil Inam"
+  avatar           : "adil1.jpeg"
+  bio              : "Graduate student in Computer Science at UIUC interested in System Security, Intrusion Detection, Audit Logging, Forensic Analysis, and Data Provenance."
   location         : 
-  employer         : "University of Illinois at Chicago"
+  employer         : "University of Illinois at Urbana Champaign"
   pubmed           :
-  googlescholar    : "https://scholar.google.com/citations?user=s-1k0F8AAAAJ&hl=en"
+  googlescholar    : 
   researchgate     :  
   uri              :
   bitbucket        :
@@ -95,13 +95,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "mhassan11"
+  github           : "madil27"
   google_plus      :
   keybase          : 
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : "mhassan11/"
+  linkedin         : "adil-inam/"
   orcid            :
   pinterest        :
   soundcloud       :
@@ -114,7 +114,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  email            : "mhassa42@uic.edu"
+  email            : "mainam2@illinois.edu"
 
 # Reading Files
 include:
