@@ -16,7 +16,6 @@ h2, h3, h4, h5, h6 {margin: 0;}
 ## Undergraduate Teaching Assistant at the Lahore University of Management Sciences
 ## 09/2018 - 05/2020
 
-<br>
 
 ### Operating Systems Course: 
 ##### Primary duties included: (1) conducting tutorials and office hours to explain OS concepts consisting of process synchronization, deadlocks, paging etc. (2) designing assignments (3) grading. <br>

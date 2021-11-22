@@ -17,17 +17,16 @@ h2, h3, h4, h5, h6 {margin: 0;}
 
 
 
-### Graduate Research Assistant at the Secure & Transparent Systems Laboratory at the University of Illinois Urbana-Champaign
+### Graduate Research Assistant @ STS Lab, University of Illinois at Urbana-Champaign, IL.
 #### 08/2020 - Present
 #### Led by Dr. Adam Bates.
-<br/>
 
-### Undergraduate Research Assistant at the Lahore University of Management Sciences
+
+### Undergraduate Research Assistant @ LUMS, Pakistan
 #### 01/2019 - 05/2020
 ####  Supervised by Dr. Fareed Zaffar
-<br/>
 
-<br/>
+
 
 <!-- 
 ### Tech Research Intern at Spotify, Boston, MA
