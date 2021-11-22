@@ -21,4 +21,4 @@ My research interests include System Security, Intrusion Detection, Audit Loggin
 <em> [mainam2@illinois.edu](mailto:mainam2@illinois.edu) </em> <br>
 <em> [+1 (312) 536 76283](tel:3125366283) </em> <br>
 
-<img src="/images/adil1.jpeg" width="200">
+<!-- <img src="/images/adil1.jpeg" width="200"> -->

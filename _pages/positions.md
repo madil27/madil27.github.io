@@ -27,17 +27,6 @@ h2, h3, h4, h5, h6 {margin: 0;}
 ####  Supervised by Dr. Fareed Zaffar
 <br/>
 
-### Undergraduate Teaching Assistant at the Lahore University of Management Sciences
-#### 09/2018 - 05/2020
-##### Operating Systems Course: Primary duties included: (1) conducting tutorials and office hours to explain OS concepts consisting of process synchronization, deadlocks, paging etc. (2) designing assignments (3) grading.
-
-##### Software Engineering Course: Primary duties included: (1) conducting tutorials and office hours (2) grading
-assignments and quizzes.
-
-##### Data Structures Course: Primary duties included: (1) conducting tutorials and office hours (2) designing autograders for assignments (3) grading assignments and quizzes.
-
-##### Fundamentals of Computer Systems Course: Primary duties included: (1) Conducting tutorials and office hours (2) Grading assignments and quizzes.
-
 <br/>
 
 <!-- 
