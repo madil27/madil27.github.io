@@ -21,7 +21,7 @@ h2, h3, h4, h5, h6 {margin: 0;}
 #### 08/2020 - Present
 #### Led by Dr. Adam Bates.
 
-
+  
 ### Undergraduate Research Assistant @ LUMS, Pakistan
 #### 01/2019 - 05/2020
 ####  Supervised by Dr. Fareed Zaffar
